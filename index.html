@@ -70,6 +70,35 @@
       </div>
     </section>
 
+    <main class="container mx-auto">
+      <!-- SERACH-BOX-AREA -->
+
+      <section class="text-center pt-12 pb-8">
+        <h3 class="text-3xl font-bold text-[#100F0F] mb-6">Search your phone</h3>
+        <div">
+          <input
+            id="input-field"
+            type="text"
+            placeholder="Search Phone..."
+            class="input w-full max-w-xs bg-[#F3F3F3]"
+          />
+          <button
+            onclick="serachPhone()"
+            class="btn bg-[#0D6EFD] hover:bg-[#0D6EFD] px-8 py-4 capitalize text-white font-bold"
+          >
+            Search
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <div
+          id="product-container"
+          class="grid lg:grid-cols-3 gap-4 md:grid-cols-2 grid-cols-1"
+        ></div>
+      </section>
+    </main>
+
     <!-- SCRIPTS-JS-LINK -->
     <script src="js/data.js"></script>
   </body>
